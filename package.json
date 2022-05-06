@@ -1,0 +1,22 @@
+{
+  "name": "instituto-zag-api",
+  "version": "0.1.0",
+  "description": "Instituto Zag API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --inspect src/index.js",
+    "test": "jest"
+  },
+  "engines": {
+    "node": "16.13.1"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
